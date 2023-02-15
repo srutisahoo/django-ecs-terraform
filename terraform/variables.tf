@@ -48,7 +48,7 @@ variable "ecs_cluster_name" {
 variable "amis" {
   description = "Which AMI to spawn."
   default = {
-    us-east-1 = "ami-08ce0269b718c03ab"
+    us-east-1 = "ami-0cd7323ab3e63805f"
   }
 }
 
@@ -97,7 +97,7 @@ variable "autoscale_max" {
 }
 variable "autoscale_desired" {
   description = "Desired autoscale (number of EC2)"
-  default     = "4"
+  default     = "2"
 }
 
 # rds
